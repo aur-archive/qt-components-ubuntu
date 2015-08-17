@@ -1,0 +1,11 @@
+diff -Naur qt-components-ubuntu-0.1.36~quantal1/documentation/documentation.pri qt-components-ubuntu-0.1.36~quantal1-new/documentation/documentation.pri
+--- qt-components-ubuntu-0.1.36~quantal1/documentation/documentation.pri	2013-02-20 09:48:03.000000000 +0100
++++ qt-components-ubuntu-0.1.36~quantal1-new/documentation/documentation.pri	2013-03-06 12:39:37.089519084 +0100
+@@ -1,4 +1,4 @@
+-QDOC = /usr/lib/*/qt5/bin/qdoc
++QDOC = /usr/lib/qt/bin/qdoc
+ system($$QDOC $$PWD/ubuntu-sdk.qdocconf)
+ 
+ install_docs.files = $$PWD/html
+
+ 
